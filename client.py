@@ -6,3 +6,5 @@ print(client.add(5, 6))
 print(client.sub(5, 6))
 
 # client.disconnect()
+
+# 172.23.96.1, 192.168.56.1, 192.168.0.167
