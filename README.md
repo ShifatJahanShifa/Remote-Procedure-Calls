@@ -38,5 +38,7 @@ Disconnect (RPCClient.disconnect)
 
 ### Server Handling:
 
+```
 Accept connection (RPCServer.run -> sock.accept)
 Handle request (RPCServer.__handle__)
+```
