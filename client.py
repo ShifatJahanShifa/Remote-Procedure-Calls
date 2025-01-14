@@ -1,9 +1,10 @@
 from rpc import RPCClient
-client=RPCClient('127.0.0.1', 8080)
-client.connect()
+server=RPCClient('127.0.0.1', 8080)
+server.connect()
 
-print(client.add(5, 6))
-print(client.sub(5, 6))
+print(server.add(5, 6))
+print(server.sub(5, 6))
+print(server.factorial(5))
 
 # client.disconnect()
 
